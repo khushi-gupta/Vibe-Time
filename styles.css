@@ -1,0 +1,49 @@
+div{
+  display: inline-block;
+}
+body{
+  background-color: yellow;
+  text-align: center;
+}
+.timer-border
+{
+  margin-top: 15%;
+  width: 60%;
+  background-color: #FFA9A3;
+}
+.timer-content{
+  width: 100%;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+.timer-block
+{
+  width:5%;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  margin: 5%;
+}
+
+#hour1{
+background-color: grey;
+}
+#hour2{
+background-color: grey;
+
+}
+#minute1{
+background-color: pink;
+margin-left: 2%;
+}
+#minute2{
+background-color: pink;
+
+}
+#second1{
+background-color: powderblue;
+margin-left: 2%;
+}
+#second2{
+background-color: powderblue;
+
+}
