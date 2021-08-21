@@ -5,35 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timer&Music</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <h1>Timer with Music Player</h1>
     <div class="timer-border">
-      <div class="timer-content">
+
         <div id="hour1" class="timer-block">
-          00
+          <input type="number" class="time" id="h1"  min="0" max="9">
         </div>
         <div id="hour2" class="timer-block">
-          00
+          <input type="number" class="time" id="h2"  min="0" max="9">
         </div>
-        :
+        <div id="semicolon" class="semicolonf">
+        </div>
         <div id="minute1" class="timer-block">
-          00
+          <input type="number" class="time" id="m1"  min="0" max="9">
         </div>
         <div id="minute2" class="timer-block">
-          00
+          <input type="number" class="time" id="m2"  min="0" max="9">
         </div>
-        :
+        <div id="semicolon" class="semicolons">
+        </div>
         <div id="second1" class="timer-block">
-          00
+          <input type="number" class="time" id="s1"  min="0" max="9">
         </div>
         <div id="second2" class="timer-block">
-          00
+          <input type="number" class="time" id="s2"  min="0" max="9">
         </div>
-      </div>
+        <div class="hr">
 
-      <p>Enter your favorite music:</p>
-      <input type="text" name="" value="">
+        </div>
+      <p class="enter">Enter your favorite music:</p>
+      <input class="in" type="text" name="" value="">
+      <button type="button" id="btn" name="button">Go!</button>
     </div>
   </body>
 </html>

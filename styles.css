@@ -1,49 +1,119 @@
 div{
   display: inline-block;
 }
+h1{
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  font-size: 2.5rem;
+}
 body{
   background-color: #BBD5ED;
   text-align: center;
 }
 .timer-border
 {
-  margin-top: 15%;
-  width: 60%;
+  margin-top: 8%;
+  width: 80%;
+  height: 25.25rem;
   background-color: #FFA9A3;
+  position: relative;
+  border: solid black;
+  border-radius: 10% 10% 10% 10%;
 }
-.timer-content{
-  width: 100%;
-  background-color: #FFFFFF;
-  text-align: center;
-}
+
 .timer-block
 {
-  width:5%;
+  margin-top: 1.75rem;
+  height: 8.25rem;
+  width:10%;
   background-color: #FFFFFF;
-  font-size: 100%;
-  margin: 5%;
 }
 
 #hour1{
 background-color: grey;
+position: absolute;
+left:3%;
 }
 #hour2{
 background-color: grey;
-
+position: absolute;
+left:15%;
 }
 #minute1{
 background-color: pink;
-margin-left: 2%;
+position: absolute;
+left:39%;
 }
 #minute2{
 background-color: pink;
-
+position: absolute;
+left:51%;
 }
 #second1{
 background-color: powderblue;
-margin-left: 2%;
+position: absolute;
+left:74%;
 }
 #second2{
 background-color: powderblue;
+position: absolute;
+left:86%;
+}
+.semicolonf{
+  position: absolute;
+  left:31.5%;
 
+}
+.semicolons{
+  position: absolute;
+  left:67.5%;
+
+}
+#semicolon{
+  background-color: #000000;
+  width:1%;
+  height: 11rem;
+}
+.enter{
+  position: absolute;
+  left: 35%;
+  bottom: 15%;
+  font-size: 2rem;
+  font-family: 'Playfair Display', serif;
+}
+.in{
+  position: absolute;
+  height: 2rem;
+  width: 15rem;
+  font-size: 2rem;
+  left: 39%;
+  bottom: 5%;
+}
+.hr{
+  margin-top:16.25%;
+  background-color: #000000;
+  width:100%;
+  height:0.1875rem;
+}
+#btn{
+  position: absolute;
+  bottom: 5%;
+  height: 2.35rem;
+  left:64%;
+  width: 3rem;
+  font-size: 1.5rem;
+}
+.time{
+  margin: 1%;
+  width: 90%;
+  height: 8rem;
+  background-color: #000000;
+  color: yellow;
+  text-align: center;
+  font-size: 8rem;
+}
+@media (max-width:1028px) {
+  div{
+  font-size:10px;
+}
 }
