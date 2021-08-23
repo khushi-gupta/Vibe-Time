@@ -16,35 +16,34 @@
   <body>
     <h1>Timer with Music Player</h1>
     <div class="timer-border">
-
+      <!--Placeholder tag allows us to provide default text in the input field-->
+      <!--min and max values tell min and max input-->
         <div id="hour1" class="timer-block">
-          <input type="number" class="time" id="h1"  min="0" max="9">
+          <input type="number" placeholder="00H" class="time" id="h1"  min="0" max="60">
         </div>
-        <div id="hour2" class="timer-block">
-          <input type="number" class="time" id="h2"  min="0" max="9">
-        </div>
+        <!--<p id='H'>H</p>-->
         <div id="semicolon" class="semicolonf">
         </div>
         <div id="minute1" class="timer-block">
-          <input type="number" class="time" id="m1"  min="0" max="9">
+          <input type="number"  placeholder="00M" class="time" id="m1"  min="0" max="60">
         </div>
-        <div id="minute2" class="timer-block">
-          <input type="number" class="time" id="m2"  min="0" max="9">
-        </div>
+
+        <!--<p id='M'>M</p>-->
         <div id="semicolon" class="semicolons">
         </div>
         <div id="second1" class="timer-block">
-          <input type="number" class="time" id="s1"  min="0" max="9">
+          <input type="number"  placeholder="00S" class="time" id="s1"  min="0" max="60">
         </div>
-        <div id="second2" class="timer-block">
-          <input type="number" class="time" id="s2"  min="0" max="9">
-        </div>
+        <!--<p id='S'>S</p>-->
         <div class="hr">
-
         </div>
+        <button type="button" id="start" name="button">START</button>
+        <button type="button" id="stop" name="button">STOP</button>
+        <button type="button" id="reset" name="button">RESET</button>
       <p class="enter">Enter your favorite music:</p>
       <input class="in" type="text" name="" value="">
-      <button type="button" id="btn" name="button">Go!</button>
+      <button type="button" id="go" name="button">Go!</button>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
