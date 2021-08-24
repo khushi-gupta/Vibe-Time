@@ -29,6 +29,10 @@ startBtn.addEventListener('click',function a(){
   let x=hours.value;
   let y=minutes.value;
   let z=seconds.value;
+  x=parseInt(x);
+  y=parseInt(y);
+  z=parseInt(z);
+  console.log(x,y,z);
   function frame()
   {
     z--;
