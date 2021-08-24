@@ -8,9 +8,16 @@ h1{
 }
 body{
   background-color: #424B54;
+  background-image: url(stopwatch.png);
+  background-size: 5%;
+  background-repeat: space;
   text-align: center;
   height: 100%;
   color: #EBCFB2;
+  margin: 0;
+}
+button{
+  font-family: 'Merriweather', serif;
 }
 html{
   height: 100%;
@@ -34,9 +41,12 @@ html{
 }
 
 p{
-  font-size: 2.5rem;
-  margin-top: 4rem;
+  font-size: 1rem;
+  font-family: 'Patua One', cursive;
+  margin-bottom: 0 auto 0 auto;
+  display: inline-block;
 }
+
 /*#H{
   position: absolute;
   left: 28.25%;
@@ -140,12 +150,22 @@ left:74%;
   text-align: center;
   font-size: 400%;
 }
+.bottom{
+  background-color: #C5BAAF;
+  margin-top:5%;
+  width: 100%;
+  height: 10%;
+  color: #424B54;
+}
 @media (max-width:1028px) {
   div{
   font-size:12px;
 }
 #start,#stop,#reset{
   font-size: 50%;
+}
+.p{
+  font-size: 1rem;
 }
 .time{
   font-size: 200%;
