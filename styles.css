@@ -3,26 +3,27 @@ div,p{
 }
 h1{
   font-family: 'Merriweather', serif;
-  margin: 0;
+  margin-top: 2%;
   font-size: 2.5rem;
 }
 body{
-  background-color: #BBD5ED;
+  background-color: #424B54;
   text-align: center;
   height: 100%;
+  color: #EBCFB2;
 }
 html{
   height: 100%;
 }
 .timer-border
 {
-  margin-top: 8%;
+  margin-top: 3%;
   width: 75%;
   height: 72%;
-  background-color: #FFA9A3;
+  background-color: #C5BAAF;
   position: relative;
   border: solid black;
-  border-radius: 10% 10% 10% 10%;
+  border-radius: 2%;
 }
 
 .timer-block
@@ -77,7 +78,7 @@ left:74%;
 }
 #semicolon{
   background-color: #000000;
-  width:1%;
+  width:0.5%;
   height: 11rem;
 }
 .enter{
@@ -98,19 +99,19 @@ left:74%;
   width: 10%;
   height: 2.35rem;
   font-size: 100%;
-  margin: 1rem;
+  margin: 10%;
 }
 #stop{
   width: 10%;
   height: 2.35rem;
   font-size: 100%;
-  margin: 1rem;
+  margin: 10%;
 }
 #reset{
   width: 10%;
   height: 2.35rem;
   font-size: 100%;
-  margin: 1rem;
+  margin: 10%;
 }
 
 #go{
@@ -135,7 +136,7 @@ left:74%;
   width: 90%;
   height: 80%;
   background-color: #000000;
-  color: yellow;
+  color: #F7FFF7;
   text-align: center;
   font-size: 400%;
 }
@@ -143,8 +144,11 @@ left:74%;
   div{
   font-size:12px;
 }
-.enter{
-  font-size: 12px;
+#start,#stop,#reset{
+  font-size: 50%;
+}
+.time{
+  font-size: 200%;
 }
 
 }
